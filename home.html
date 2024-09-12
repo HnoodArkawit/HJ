@@ -78,15 +78,13 @@
 
                 <nav id="navmenu" class="navmenu">
                     <ul>
-                        <li><a href="#hero" class="active">الرئيسية<br></a></li>
-                        <li><a href="#about">من نحن</a></li>
-                        <li><a href="#menu">القائمة</a></li>
-                        <li><a href="#specials">العروض الخاصة</a></li>
-                        <li><a href="#events">الانشطة</a></li>
-                        <li><a href="#gallery">المعرض</a></li>
-
-
-                        <li><a href="#contact">تواصل معنا</a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;" href="#hero" class="active">الرئيسية<br></a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;"href="#about">من نحن</a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;"href="#menu">القائمة</a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;"href="#specials">العروض الخاصة</a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;"href="#events">الانشطة</a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;"href="#gallery">المعرض</a></li>
+                        <li><a style="font-family: 'Cairo', sans-serif;"href="#contact">تواصل معنا</a></li>
                     </ul>
                     <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
                 </nav>
@@ -98,7 +96,38 @@
         </div>
 
     </header>
+    <style>
+        .custom-button {
+            color: var(--default-color);
+            border: 2px solid var(--accent-color);
+            background: transparent;
+            padding: 14px 60px;
+            transition: 0.4s;
+            border-radius: 50px;
+            margin: 10px;
+        }
 
+        .custom-button:hover {
+            background-color: gold;
+            color: white;
+            border-color: gold;
+        }
+
+        .location-button {
+            color: var(--default-color);
+            border: 2px solid var(--accent-color);
+            background: transparent;
+            transition: 0.4s;
+            border-radius: 50px;
+            width: 100%;
+        }
+
+        .location-button:hover {
+            background-color: gold;
+            color: white;
+            border-color: gold;
+        }
+    </style>
     <main class="main">
 
         <!-- قسم البطل -->
@@ -123,38 +152,6 @@
             </div>
 
         </section><!-- /قسم البطل -->
-        <style>
-            .custom-button {
-                color: var(--default-color);
-                border: 2px solid var(--accent-color);
-                background: transparent;
-                padding: 14px 60px;
-                transition: 0.4s;
-                border-radius: 50px;
-                margin: 10px;
-            }
-
-            .custom-button:hover {
-                background-color: gold;
-                color: white;
-                border-color: gold;
-            }
-
-            .location-button {
-                color: var(--default-color);
-                border: 2px solid var(--accent-color);
-                background: transparent;
-                transition: 0.4s;
-                border-radius: 50px;
-                width: 100%;
-            }
-
-            .location-button:hover {
-                background-color: gold;
-                color: white;
-                border-color: gold;
-            }
-        </style>
 
         <!-- قسم حولنا -->
         <section id="about" class="about section">
@@ -166,7 +163,7 @@
                         <img src="assets/img/support.jpg" class="img-fluid about-img" alt="">
                     </div>
                     <div class="col-lg-6 order-2 order-lg-1 content">
-                        <h3> دائما نقدم لكم افضل الاستشارات</h3>
+                        <h3 style="color: var(--accent-color);"> دائما نقدم لكم افضل الاستشارات</h3>
                         <p class="fst-italic">
                             ونجعلك مؤهلا للحصول على الشهادات الصحية وشهادات الجودة</p>
                         <ul>
@@ -818,7 +815,7 @@
             <p> تقدم بطلب استشارتك الان</p>
         </div><!-- نهاية عنوان القسم -->
         <!-- قسم الحجز -->
-        <section id="book-a-table" class="book-a-table section">
+        <section id="book-a-service" class="book-a-table section">
 
             <div class="container" data-aos="fade-up">
                 <form id="booking-form" role="form" data-aos="fade-up" data-aos-delay="100">
@@ -887,7 +884,7 @@
             <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 footer-about">
                     <a href="home.html" class="logo d-flex align-items-center">
-                        <span class="sitename">حوكمة الجودة</span>
+                        <span style="font-family: 'Cairo', sans-serif;" class="sitename">حوكمة الجودة</span>
                     </a>
                     <div class="footer-contact pt-3">
                         <p>الطائف</p>

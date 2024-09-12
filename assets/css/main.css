@@ -1352,7 +1352,7 @@ section,
 
 .events .event-item .price {
   font-size: 26px;
-  font-family: var(--default-font);
+  font-family: 'Cairo', sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
