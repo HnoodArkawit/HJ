@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>صفحة الدخول</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100%;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+        }
+        .hero .container {
+            position: relative;
+            z-index: 1;
+        }
+        .cta-btn {
+            margin: 0 10px;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #000001;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+            margin-top: 22.5rem !important;
+        }
+        .cta-btn:hover {
+            background-color: #f79c1a;
+        }
+    </style>
+</head>
+<body>
+    <section id="hero" class="hero section dark-background">
+        <!-- إضافة مصادر متعددة لضمان دعم المتصفحات المختلفة -->
+        <video autoplay muted loop preload="auto" playsinline>
+            <source src="assets/video/entry.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-flex mt-4">
+                    <a style="font-family: 'Cairo', sans-serif;" href="../HJ/home.html" class="cta-btn">العربية</a>
+                    <a style="font-family: 'Cairo', sans-serif;" href="../HJ/home.html" class="cta-btn">الإنجليزية</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- تضمين Bootstrap JS و jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
+
